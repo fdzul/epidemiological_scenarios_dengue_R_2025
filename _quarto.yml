@@ -4,7 +4,7 @@ project:
 
 website:
   page-footer: "Copyright 2025, Felipe Antonio Dzul Manzanilla | Fabián Correa-Morales"
-  title: "Análisis Espacial del Dengue en R"
+  title: "Escenarios Epidemiológicos del Dengue en R"
   repo-url: https://github.com/fdzul/patial_analysis_dengue_R_2024-dev
   repo-actions: [edit, issue]
   favicon: imagenes/chains_ticul_2023.jpg
