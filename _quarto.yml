@@ -27,6 +27,8 @@ website:
         href: temario.html
       - text: "Referencias"
         href: links.html
+      - text: "Contacto"
+        href: contacto.html
 
 format:
   html:
