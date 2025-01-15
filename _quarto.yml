@@ -7,7 +7,7 @@ website:
   title: "Escenarios Epidemiológicos del Dengue en R"
   repo-url: https://github.com/fdzul/epidemiological_scenarios_dengue_R_2025-dev
   repo-actions: [edit, issue]
-  favicon: imagenes/chains_ticul_2023.jpg
+  favicon: imagenes/logo_course.png
   twitter-card: true
   navbar:
     logo: imagenes/logo_course.png
