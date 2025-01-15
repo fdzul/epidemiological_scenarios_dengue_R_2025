@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Escenarios Epidemiológicos del Dengue en R</title>
+<title>about – Escenarios Epidemiológicos del Dengue en R</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -96,11 +96,11 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Objetivos</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link active" href="./about.html" aria-current="page"> 
 <span class="menu-text">Detalles</span></a>
   </li>  
   <li class="nav-item">
@@ -153,11 +153,16 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#objetivo-general" id="toc-objetivo-general" class="nav-link active" data-scroll-target="#objetivo-general"><strong>Objetivo General</strong></a></li>
-  <li><a href="#objetivos-específicos" id="toc-objetivos-específicos" class="nav-link" data-scroll-target="#objetivos-específicos"><strong>Objetivos Específicos</strong></a></li>
-  <li><a href="#audiencia" id="toc-audiencia" class="nav-link" data-scroll-target="#audiencia">Audiencia</a></li>
+  <li><a href="#formato-del-curso" id="toc-formato-del-curso" class="nav-link active" data-scroll-target="#formato-del-curso">Formato del Curso</a></li>
+  <li><a href="#sede" id="toc-sede" class="nav-link" data-scroll-target="#sede">Sede</a></li>
+  <li><a href="#fecha" id="toc-fecha" class="nav-link" data-scroll-target="#fecha">Fecha</a></li>
+  <li><a href="#requisitos-de-conceptos-teóricos" id="toc-requisitos-de-conceptos-teóricos" class="nav-link" data-scroll-target="#requisitos-de-conceptos-teóricos">Requisitos de conceptos teóricos</a></li>
+  <li><a href="#requisitos-computacionales" id="toc-requisitos-computacionales" class="nav-link" data-scroll-target="#requisitos-computacionales">Requisitos computacionales</a></li>
+  <li><a href="#requisitos-de-equipo-software" id="toc-requisitos-de-equipo-software" class="nav-link" data-scroll-target="#requisitos-de-equipo-software">Requisitos de Equipo &amp; Software</a></li>
+  <li><a href="#inscripción-al-curso" id="toc-inscripción-al-curso" class="nav-link" data-scroll-target="#inscripción-al-curso">Inscripción al curso</a></li>
+  <li><a href="#examen" id="toc-examen" class="nav-link" data-scroll-target="#examen">Examen</a></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/fdzul/patial_analysis_dengue_R_2024-dev/edit/main/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/fdzul/patial_analysis_dengue_R_2024-dev/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/fdzul/patial_analysis_dengue_R_2024-dev/edit/main/about.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/fdzul/patial_analysis_dengue_R_2024-dev/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
@@ -165,24 +170,55 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="objetivo-general" class="level1">
-<h1><strong>Objetivo General</strong></h1>
-<p>El curso títulado <strong>Análisis Espacial del Dengue en R</strong> tiene como objetivo central desarrollar las competencias específicas para la identificación de los escenarios epidemiologicos o de riesgo de la riesgo de transmisión del dengue en áreas urbanas y metropolitanas de México usando información entomológica y epidemiológica con la finalidad orientar las acciones de prevención y control del Manejo Integrado de las Arbovirosis en México.</p>
+<section id="formato-del-curso" class="level2">
+<h2 class="anchored" data-anchor-id="formato-del-curso">Formato del Curso</h2>
+<p>Curso presencial de lunes a viernes durante la <em>Reunión Nacional de Vectores</em>.</p>
 </section>
-<section id="objetivos-específicos" class="level1">
-<h1><strong>Objetivos Específicos</strong></h1>
-<ol type="1">
-<li><p>Identificar los hotspots de la transmisión de las arbovirosis en las localidades urbanas endémicas de México.</p></li>
-<li><p>Identificar los hotspots de la abundancia de huevos del vector del dengue en las localidades urbanas endémicas de México.</p></li>
-<li><p>Identificar las cadenas de transmisión activa del dengue en las localidades urbanas endémicas de México.</p></li>
-<li><p>Implementar el modelo Log Gaussian Cox Process en las localidades urbanas endémicas de México.</p></li>
-<li><p>Generar los mapas de calor en las localidades urbanas endémicas de México.</p></li>
-<li><p>Desarrollar un modelo estratégico de focalización del dengue en las localidades urbanas endémicas de México.</p></li>
-</ol>
+<section id="sede" class="level2">
+<h2 class="anchored" data-anchor-id="sede">Sede</h2>
+<p>Por definir</p>
 </section>
-<section id="audiencia" class="level1">
-<h1>Audiencia</h1>
-<p>El curso de <strong>Análisis Espacial del Dengue en R</strong> esta complementado con el desarrollo de paquetes colectivamente llamados <strong>dengueverse</strong> (rgeomex, denhotspots, deneggs, dencontrol, denepikit) y el <a href="https://fdzul.github.io/manual_hotspots/">manual para la identificación de los hotspots en las localidades urbanas endémicas</a>. Tanto los cursos, el parquete y el manual, no solo está dirigido al personal operativo, mandos medios y directivos de los Programas de Prevención y Control de las arbovirosis transmitidas por <em>Aedes</em> de la Secretaría de Salud de México, sino también a la comunidad académica relacionada con la investigación operativa sobre el análisis espacial de dengue y al público en general interesado en el tema.</p>
+<section id="fecha" class="level2">
+<h2 class="anchored" data-anchor-id="fecha">Fecha</h2>
+<p>Por definir</p>
+</section>
+<section id="requisitos-de-conceptos-teóricos" class="level2">
+<h2 class="anchored" data-anchor-id="requisitos-de-conceptos-teóricos">Requisitos de conceptos teóricos</h2>
+<p>Es ideal tener conocimientos de los conceptos básicos de los sistemas de información geográfica (SIG), como vector (puntos, líneas y polígonos), ráster y sistemas de referencia de coordenadas (Coordinate Reference System = CRS), pero no es necesario.</p>
+</section>
+<section id="requisitos-computacionales" class="level2">
+<h2 class="anchored" data-anchor-id="requisitos-computacionales">Requisitos computacionales</h2>
+<p>Es deseable tener experiencia en R o Python o cualquier otro lenguaje de programación, principalmente en subir archivos de texto (csv, txt, xlsx), archivos geográficos, crear gráficos simples y manipular bases de datos en R. Sin embargo, si no se tiene experiencia con R pero ya usa software SIG y tiene un conocimiento sólido de los tipos de datos geográficos, algo o nula experiencia en programación, el curso también puede ser apropiado para usted siempre y cuando tenga la necesidad o el deseo aprender nuevas herramientas para la elaboración y diseño de mapas en R.</p>
+</section>
+<section id="requisitos-de-equipo-software" class="level2">
+<h2 class="anchored" data-anchor-id="requisitos-de-equipo-software">Requisitos de Equipo &amp; Software</h2>
+<ul>
+<li><p><strong>Computadora</strong></p>
+<p>Se requiere una computadora portátil o de escritorio con una versión funcional de R, RStudio y Rtools. R y RStudio están disponibles como software gratuito y de código abierto para Windows, Mac y Linux. R y Rtools se puede descargar siguiendo el enlace <a href="https://www.r-project.org/" class="uri">https://www.r-project.org/</a>. RStudio se puede descargar siguiendo el enlace: <a href="https://posit.co/" class="uri">https://posit.co/</a>.</p>
+<p>En el curso se abordarán brevemente otras IDE (Integrated Development Environment) para trabajar con R.</p>
+<ul>
+<li><a href="https://positron.posit.co/download.html">Positron</a></li>
+<li><a href="https://code.visualstudio.com">Visual Studio Code</a></li>
+<li><a href="https://colab.research.google.com">Google Colaboratory</a></li>
+</ul></li>
+<li><p><strong>Experiencia en la instalación de paquetes en R</strong></p>
+<p>Todos los paquetes R que utilizaremos en este curso se podrán descargar e instalar durante el taller en sí, según sea necesario, y se pondrá a disposición de todos los asistentes una lista completa de los paquetes necesarios antes del curso</p></li>
+<li><p><strong>Claves del SINAVE</strong></p>
+<p>Es importante contar con su usuario y contraseña del modulo de vectores del SINAVE. En el taller se usarán las bases de datos de vectores (principalmente DENGUE) para la elaboración de los mapas.</p></li>
+<li><p><strong>Requisitos adicionales</strong></p>
+<p>Es conveniente contar con una cámara web que funcione para mejorar la interactividad durante las sesiones. Así mismo, recomendamos a los asistentes que mantengan sus cámaras apagadas durante las sesiones y microfonos apagados. Aunque no es estrictamente obligatorio, el uso de un monitor grande o, preferiblemente, incluso un segundo monitor mejorará la experiencia de aprendizaje.</p></li>
+</ul>
+</section>
+<section id="inscripción-al-curso" class="level2">
+<h2 class="anchored" data-anchor-id="inscripción-al-curso">Inscripción al curso</h2>
+<p>Las inscripciones estarán abiertas tan pronto como el Director &amp; Subdiretos de Vectores del CENAPRECE autorize las unidades didácticas del curso. El link para la inscripción la encontrarán en este apartado.</p>
+<p><a href="">Inscripción</a></p>
+</section>
+<section id="examen" class="level2">
+<h2 class="anchored" data-anchor-id="examen">Examen</h2>
+<p>Se realizá un examen previo y posterior al curso. El examen previo se realizá una semana antes del curso y el examen postrior se realizará durante el curso.</p>
+<p><a href="">Examen Previo</a></p>
+<p><a href="">Examen Posterior</a></p>
 
 
 </section>
@@ -613,7 +649,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>   
     <div class="nav-footer-center">
 <p>Copyright 2025, Felipe Antonio Dzul Manzanilla | Fabián Correa-Morales</p>
-<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/fdzul/patial_analysis_dengue_R_2024-dev/edit/main/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/fdzul/patial_analysis_dengue_R_2024-dev/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/fdzul/patial_analysis_dengue_R_2024-dev/edit/main/about.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/fdzul/patial_analysis_dengue_R_2024-dev/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
       &nbsp;
     </div>

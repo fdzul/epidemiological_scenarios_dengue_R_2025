@@ -10,7 +10,7 @@ website:
   favicon: imagenes/chains_ticul_2023.jpg
   twitter-card: true
   navbar:
-    logo: imagenes/logo_curso_2024.png
+    logo: imagenes/logo_course.png
     tools:
       - icon: twitter
         href: https://twitter.com/FdzulM
@@ -22,9 +22,13 @@ website:
             url:  https://bugs.com
     left:
       - href: index.qmd
-        text: Home
+        text: Objetivos
+      - href: about.qmd
+        text: Detalles
       - text: "Temario"
         href: temario.html
+      - text: "Labs"
+        href: Labs.html
       - text: "Referencias"
         href: links.html
       - text: "Contacto"
@@ -38,5 +42,5 @@ format:
 
 editor: visual
 margin-header: |
-  ![](imagenes/logo_curso_2024.png)
+  ![](imagenes/logo_course.png)
 
