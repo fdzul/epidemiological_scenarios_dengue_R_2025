@@ -4,7 +4,7 @@ title: ""
 
 # **Objetivo General**
 
-El curso títulado **Análisis Espacial del Dengue en R** tiene como objetivo central desarrollar las competencias específicas para la identificación de los escenarios epidemiologicos o de riesgo de la riesgo de transmisión del dengue en áreas urbanas y metropolitanas de México usando información entomológica y epidemiológica con la finalidad orientar las acciones de prevención y control del Manejo Integrado de las Arbovirosis en México.
+El curso títulado **Análisis Espacial del Dengue en R** tiene como objetivo central desarrollar las competencias específicas para la identificación de los escenarios operativo o epidemiológicos del riesgo de la transmisión de los virus del dengue en áreas urbanas y metropolitanas de México usando información entomológica y epidemiológica con la finalidad orientar las acciones de prevención y control del Manejo Integrado de las Arbovirosis en México.
 
 # **Objetivos Específicos**
 

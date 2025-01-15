@@ -4,15 +4,15 @@ title: ""
 
 ## Formato del Curso
 
-Curso presencial de lunes a viernes durante la *Reunión Nacional de Vectores*.
+Curso presencial de lunes a viernes durante la *Reunión Nacional de Vectores 2025*.
 
 ## Sede
 
-Por definir
+Ciudad de Oaxaca, Oaxaca.
 
 ## Fecha
 
-Por definir
+Última Semana de Febrero
 
 ## Requisitos de conceptos teóricos
 
@@ -54,10 +54,8 @@ Las inscripciones estarán abiertas tan pronto como el Director & Subdiretos de 
 
 ## Examen
 
-Se realizá un examen previo y posterior al curso.
-El examen previo se realizá una semana antes del curso y el examen postrior se realizará durante el curso.
+Se realizá un examen previo y posterior al curso. El examen previo se realizá una semana antes del curso y el examen postrior se realizará durante el curso.
 
 [Examen Previo]()
 
 [Examen Posterior]()
-
